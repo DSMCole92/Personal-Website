@@ -1,0 +1,225 @@
+#partner .box-content{position: relative;}
+#partner:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	opacity: 0.7;
+	background: linear-gradient(to right, #000529 1%,#002055 24%,#005db5 67%,#0074d9 100%);
+}
+#partner{
+	position: relative;	
+	background-image: url('../img/Background.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	padding-top: 20px;
+}
+.partner-img{
+	display: grid;
+	justify-content: center;
+	align-items: center; 
+}
+.partner{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	grid-gap: 20px;
+	align-items: center;
+	margin-top: 0;
+}
+.partner-title h1{
+	color: white;
+}
+/*testimoni*/
+#testimoni .box-content h1,.partner-title{
+	text-align: center;
+	margin: 20px;
+}
+.testimoni{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+	grid-gap: 30px;
+	margin: 10px auto;
+}
+.testi{
+	border-radius: 20px;
+	transition: 1s ease;
+	padding: 5px;
+}
+.testi:hover{
+	box-shadow: 5px 5px 10px -5px rgba(0, 100, 255, 0.5);
+	background: linear-gradient(to right, #000529 1%,#002055 24%,#005db5 67%,#0074d9 100%);
+	color: white;
+}
+.testi .desc-testi{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 20px;
+	text-align: center;
+}
+.profil-testi{
+	display: flex;
+	flex-wrap: nowrap;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+}
+.profil-testi img{
+	max-width: 130px;
+}
+img[alt="centang"]{
+	max-width: 25px;
+	max-height: 25px;
+}
+
+<head>
+    <meta charset="utf 8">
+    <meta name="viewport" content="width=device-width">
+    <title>Customer Reviews</title>
+    <link rel="stylesheet" href="cr.css">
+    <h1 align="center">- What Customers Say About Us -<h1>
+    <hr>
+</head>
+<body>
+    <h2>INFLUENCER</h2>
+    <h3>ACTRESS</h3>
+    <h4>LECTURER</h4>
+    <div class="kontainer">
+        <div class="testimoni">
+            <img src="raisa.jpg" align="center" width="15%">RAISA</img>
+            <img src="Centang.png" align="center" width="5%">
+            <p>
+                "I really like the appearance of this web
+                And also the content of this web is very interesting
+                and also useful about automotive 
+                Overall I give a rating of 9/10. 
+/*contact*/
+
+#contact {
+    background: url('../');
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+}
+#contact .box-content{
+	display: flex;
+	flex-direction: column;
+}
+@media only screen and (min-width: 992px){
+	#contact .box-content{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
+	grid-gap: 100px;
+	}
+	.partner{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	grid-gap: 20px;
+	align-items: center;
+	margin-top: -80px;
+}
+}
+
+form.form{
+    background-color: white;
+    padding: 25px;
+}
+.title {
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: left;
+}
+.title h1{
+	margin: 20px auto;
+}
+.info {
+    display: flex;
+ 	flex-direction: column;
+}
+input[name="name"] {
+    padding: 5px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 2px solid black;
+    width: 100%;
+}
+form.form button {
+	background: linear-gradient(to right, #000529 1%,#002055 24%,#005db5 67%,#0074d9 100%);
+    padding: 10px 5px;
+    margin-top: 20px;
+ 	border-radius: 5px; 
+    border: none; 
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    width: 100%;
+    margin-left: 0;
+}
+form.form button:hover {
+    background: #0074d9;
+}
+
+.info-contact{
+	background-color: black;
+	color: white;
+	display: flex;
+	flex-direction: column;
+}
+.kotak{
+	position: absolute;
+	margin: -50px;
+	width: 80px;
+	height: 80px;
+	background: linear-gradient(to right, #000529 1%,#002055 24%,#005db5 67%,#0074d9 100%);
+}
+.contact{
+	display: flex;
+	align-items: center;
+	margin: 10px 0;
+}
+.contact img{
+	width: 10%;	
+	margin: auto 20px;
+}
+footer{
+	display: grid;
+	background-color: black;
+	height: 100px;
+	color: white;
+	place-items: center;
+	line-height: 50px;
+}
+/*pesan*/
+.pesan {
+  display: none;
+  position: fixed; 
+  z-index: 1; 
+	background-color: rgba(0,0,0,0.4);
+	overflow: auto;
+  padding-top: 100px; 
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%; 
+}
+.pesan-content {
+  background: linear-gradient(to right, #000529 1%,#002055 24%,#005db5 67%,#0074d9 100%);
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;
+  color: white;
+}
+.pesan-body{
+  display: grid;
+  place-content: stretch;
+}
+
+.isi-pesan{
+  border-left: 2px solid black;
+  place-self: center;
+}
