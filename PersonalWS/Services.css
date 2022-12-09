@@ -1,0 +1,22 @@
+*
+body{
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.kontak{
+	margin: 30px 50px 0px 40px;
+}
+img{
+    width: 16%;
+}
+h1{
+    font-size: 60px;
+    padding-left: 250px;
+	color: rgb(0, 0, 0);
+}
+p{
+    font-size: 18px;
+    padding-left: 250px;
+	color: rgb(0, 0, 0);
+}
